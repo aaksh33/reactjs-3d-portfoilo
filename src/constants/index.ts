@@ -125,50 +125,50 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Frontend Developer",
+    companyName: "",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2025 - July 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Builds the User Interface (UI) → Works with HTML, CSS, and JavaScript to create the visible and interactive part of websites/web apps.",
+      "Ensures Responsiveness & Performance → Makes websites fast, mobile-friendly, and smooth across different devices and browsers.",
+      "Uses Frameworks & Tools → Works with React, Angular, Vue, Tailwind, Git, APIs, etc. to develop modern, scalable apps.",
+      "Collaborates with Designers & Backend Developers → Converts UI/UX designs into code and integrates with backend services.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Python Developer",
+    companyName: "",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2025 - August 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Backend Development → Builds server-side logic, APIs, and databases using frameworks like Django or Flask.",
+      "Data Handling & Automation → Works with data processing, scripting, and automation to simplify tasks.",
+      "AI/ML & Data Science → Uses libraries like NumPy, Pandas, TensorFlow, PyTorch for analytics, AI, and machine learning.",
+      "Collaboration & Integration → Works with frontend developers, DevOps, and databases to build complete applications.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "Backend Developer",
+    companyName: "",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2025 - August 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Builds and maintains the server-side logic, APIs, and databases of applications.",
+      "Ensures security, performance, and scalability of systems.",
+      "Works with languages like Python, Java, Node.js, PHP and frameworks such as Django, Spring, Express.",
+      "Collaborates with frontend developers to deliver a complete, functional product.",
     ],
   },
   {
     title: "Full stack Developer",
-    companyName: "Meta",
+    companyName: "",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2025 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -181,7 +181,7 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Shweta proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -189,7 +189,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Shweta does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -197,7 +197,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Shweta optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -207,9 +207,9 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Apple Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An Apple clone is a project where developers try to recreate the look and feel of Apple’s official website (apple.com). It’s mostly done for practice and portfolio building, not for commercial use.",
     tags: [
       {
         name: "react",
