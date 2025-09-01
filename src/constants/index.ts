@@ -138,16 +138,16 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "Python Developer",
+    title: "Next.js Developer",
     companyName: "",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "June 2025 - August 2025",
     points: [
-      "Backend Development → Builds server-side logic, APIs, and databases using frameworks like Django or Flask.",
-      "Data Handling & Automation → Works with data processing, scripting, and automation to simplify tasks.",
-      "AI/ML & Data Science → Uses libraries like NumPy, Pandas, TensorFlow, PyTorch for analytics, AI, and machine learning.",
-      "Collaboration & Integration → Works with frontend developers, DevOps, and databases to build complete applications.",
+      "A Next.js developer builds modern, fast, and SEO-friendly web applications using the Next.js React framework..",
+      "They work with server-side rendering (SSR) and static site generation (SSG) for better performance.",
+      "They integrate APIs, style with tools like Tailwind CSS, and ensure responsive design.",
+      "Next.js developers often collaborate with teams to create scalable, production-ready web apps.",
     ],
   },
   {
@@ -181,7 +181,7 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Shweta proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Aakash proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -189,7 +189,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Shweta does.",
+      "I've never met a web developer who truly cares about their clients' success like Aakash does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -197,7 +197,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "After Shweta optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Aakash optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -228,9 +228,9 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Health Care",
+    name: "AI Mentor Mind",
     description:
-      "A healthcare website is a digital platform made for hospitals, clinics, doctors, or health-related services to provide medical information, online consultations, and appointment booking to patients.",
+      "AI Mentor Mind is an AI-powered learning and career guidance platform (or concept) that acts like a virtual mentor. It helps students, developers, and professionals learn AI, coding, and other technical skills step by step.",
     tags: [
       {
         name: "react",
@@ -249,9 +249,9 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Linked",
+    name: "Air-Quality Monitor",
     description:
-      "LinkedIn is the world’s largest professional networking platform where individuals and businesses connect for career growth, hiring, learning, and professional branding.",
+      "An Air Quality Monitor is a device (or system) that measures the level of pollutants and gases in the air to check how clean or polluted the air is.",
     tags: [
       {
         name: "nextjs",
@@ -268,8 +268,8 @@ const projects: TProject[] = [
     ],
     image: tripguide,
     sourceCodeLink: "https://github.com/",
-   
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
